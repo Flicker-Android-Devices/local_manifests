@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="flicker-dev"
+      fetch="git@github.com:Flicker-Android-Devices"
+      revision="sixteen-qpr1" />
+
+  <remote  name="flicker-gitlab"
+      fetch="git@gitlab.com:flicker372"
+      revision="sixteen-qpr1" />
+
+    <!-- Psyche -->
+    <!-- Device -->
+    <project path="device/xiaomi/psyche" name="device_xiaomi_psyche" remote="flicker-dev" />
+    <project path="device/xiaomi/camera-psyche" name="device_xiaomi_camera-psyche" remote="flicker-dev" />
+
+    <!-- Vendor -->
+    <project path="vendor/xiaomi/psyche" name="vendor_xiaomi_psyche" remote="flicker-gitlab" />
+    <project path="vendor/xiaomi/camera-psyche" name="vendor-xiaomi-camera-psyche" remote="flicker-gitlab" />
+</manifest>
