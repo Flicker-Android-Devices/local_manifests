@@ -90,7 +90,7 @@ do_common() {
 }
 
 do_sm8250_common() {
-  sync_start_track_latest "sixteen-qpr1" \
+  sync_start_track_latest "sixteen-qpr2" \
     device/xiaomi/sm8250-common \
     hardware/xiaomi \
     kernel/xiaomi/sm8250 \
@@ -98,7 +98,7 @@ do_sm8250_common() {
 }
 
 do_thyme() {
-  sync_start_track_latest "sixteen-qpr1" \
+  sync_start_track_latest "sixteen-qpr2" \
     device/xiaomi/thyme \
     device/xiaomi/camera-thyme \
     vendor/xiaomi/thyme \
@@ -106,7 +106,7 @@ do_thyme() {
 }
 
 do_psyche() {
-  sync_start_track_latest "sixteen-qpr1" \
+  sync_start_track_latest "sixteen-qpr2" \
     device/xiaomi/psyche \
     device/xiaomi/camera-psyche \
     vendor/xiaomi/psyche \
@@ -114,13 +114,13 @@ do_psyche() {
 }
 
 do_lmi() {
-  sync_start_track_latest "sixteen-qpr1" \
+  sync_start_track_latest "sixteen-qpr2" \
     device/xiaomi/lmi \
     vendor/xiaomi/lmi
 }
 
 do_enuma() {
-  sync_start_track_latest "sixteen-qpr1" \
+  sync_start_track_latest "sixteen-qpr2" \
     device/xiaomi/enuma \
     device/xiaomi/camera-enuma \
     vendor/xiaomi/enuma \
